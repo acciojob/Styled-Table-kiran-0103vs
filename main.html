@@ -6,9 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        thead {
+            background-color: #4CAF50;
+            color: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        th {
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
     <!-- add table here -->
+    <table>
+        <thead>
+            <tr>
+                <th>Game</th>
+                <th>Points</th>
+                <th>Assists</th>
+                <th>Rebounds</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Game 1</td>
+                <td>30</td>
+                <td>5</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Game 2</td>
+                <td>25</td>
+                <td>7</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Game 3</td>
+                <td>28</td>
+                <td>6</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Game 4</td>
+                <td>22</td>
+                <td>9</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Game 5</td>
+                <td>35</td>
+                <td>4</td>
+                <td>11</td>
+            </tr>
+        </tbody>
+    </table>
 
         
 </body>
